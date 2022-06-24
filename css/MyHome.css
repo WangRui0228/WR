@@ -1,0 +1,161 @@
+body{
+    background-color: #ffb3cc;
+    margin: 0; /*去掉默认边距*/
+    padding:0;
+    font-size: 16px;
+   text-align: center;
+   background-size: cover; /*让背景图基于容器伸缩*/
+}
+
+.inner{/*采用凝胶布局*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div#header{ /*页眉区*/
+    width: 790px;
+    height: 100px;
+    margin: 0px;
+    padding: 0;
+    margin-left: auto; /*凝胶布局*/
+    margin-right: auto;
+    
+}
+
+#header .head_1{
+    display: inline-block;
+
+  
+}
+#header .head_1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b3003b;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+}
+
+#header .head_2{ /*绝对定位*/
+    position: absolute;
+    right:390px;
+    top:10px;
+  
+ }
+ #nav{
+    height:55px;
+    background-color: #ff1a66;
+    width: 790px;
+    padding:0px;
+    margin: 0px auto;
+   margin-bottom: 0px;
+}
+ 
+#nav nav div{
+    display: inline-block;
+    width: 150px ; /*790/4=196*/
+    padding-top: 10px;
+}
+
+#nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 7px;
+
+    
+}
+a:hover{ /*鼠标悬停时改变颜色*/
+    background-color: #ffb3cc;
+    color: #ff0055; 
+}
+
+.Vedio .inner .cont-1{
+    height: 200px;
+    width: 790px;
+    background-color:#ffe6ee;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: #ff1a66 3px solid;
+    border-bottom: #ff1a66 3px solid;
+
+ }
+ .Vedio .inner .cont-1-1{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ff1a66 dotted 3px;
+    margin-top: 10px;
+    line-height: 24px;
+ }
+ .Vedio  .cont-2{
+    height: 500px;
+    width: 790px;
+    background-color:#ffe6ee;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #ff1a66 3px solid;
+ }
+ .Vedio .cont-2 .cont-2-1{
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width:790px;
+    background-color: #ff1a66;
+    margin-bottom: 0;
+ }
+ .Vedio .cont-2 .cont-2-1 p{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: auto;
+ }
+ .Vedio .cont-2 .cont-2-2{
+    margin:0px;
+ }
+/*表格布局*/
+ .TableContainer{
+    display: table;
+    width: 790px;
+    height: 200px;
+    /*边框间距，单元格之间的距离，有了这个属性就不需要单元格之间的margin*/
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #ff1a66 solid 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color:#ffe6ee;
+}
+.TableContainer .landmark{
+    display: table-row;
+    height: 35px;
+    width: 250px;
+    background-color: #ff1a66;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TableContainer .landmark p{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: auto;
+}
+.TableContainer .TableRow{
+    display: table-row;
+}
+/*景色和食物*/
+.TableRow .view-food{
+    display: table-cell;
+    width:150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*对景色、食物名字的标注*/
+.TableRow .view-food .name{
+    width: 50px;
+    height: 25px;
+    background-color:#ff1a66 ;
+    margin: auto;
+}
+

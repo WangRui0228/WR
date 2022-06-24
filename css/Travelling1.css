@@ -1,0 +1,138 @@
+body{
+    background-color: #ffb3cc;
+    margin: 0; /*去掉默认边距*/
+    padding:0;
+    font-size: 16px;
+   text-align: center;
+   font-family: "Microsoft YaHei", Arial, Georgia, "Times New Roman", serif;
+}
+.inner{
+    /*凝胶布局*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header{ /*页眉区*/
+    height: 100px;
+     margin: 0px;
+     padding: 0;
+     
+}
+#header .head_1{
+    width:790px ;
+    display: inline-block;
+    height: 50px;
+    padding:0 auto;
+   
+
+}
+#header .head_1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b3003b;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   
+}
+#nav{
+    height:55px;
+    background-color: #ff1a66;
+    width: 790px;
+    padding:0px;
+    margin: 0px auto;
+   margin-bottom: 0px;
+}
+ 
+#nav nav div{
+    display: inline-block;
+    width: 150px ; /*790/4=196*/
+    padding-top: 10px;
+}
+
+#nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 7px;
+
+    
+}
+a:hover{ /*鼠标悬停时改变颜色*/
+    background-color: #ffb3cc;
+    color: #ff0055; 
+}
+.cont-1{
+    height: 35px;
+    width: 790px;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+ /*奇数行样式*/
+.TableContainer-odd{
+    display: table;
+    width: 790px;
+    height: 170px;
+    /*边框间距，单元格之间的距离，有了这个属性就不需要单元格之间的margin*/
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #ff1a66 solid 3px;
+
+}
+ img{
+    border-radius:50%; 
+   
+}
+.TableRow-odd{ /*可以看作表格的行*/
+    display:table-row;
+}
+
+.picture-odd{
+    display: table-cell;
+    width: 380px;
+   
+}
+
+.introduction-odd{
+    display: table-cell;
+    background-color: #ffe6ee;
+    width: 590px;
+    border: #ff1a66 3px dashed;
+    text-align: center;
+}
+
+
+.introduction-odd .landmark-odd{
+  
+    height: 40px;
+    width:75px;
+    background-color: #ff1a66;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    position: relative;/*相对定位*/
+    left:-170px;
+    bottom: 0px;
+}
+
+.introduction-odd .cont-odd{
+    width: 300px;
+    height: 80px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    position: relative;/*相对定位*/
+    left:52px;
+    bottom: 95px;
+}
+
+

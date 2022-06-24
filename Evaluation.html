@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Evaluation.css">
+</head>
+<body>
+     <!-- 页眉区 -->
+     <div id="header">
+        <div class="inner">
+          <div class="head_1">
+             <h1>请对我的个人页面进行评价~</h1>
+          </div>
+        </div>
+     </div>
+
+     <!-- 表单区 -->
+     <form action="">
+        <div class="TableContainer">
+           
+            <div class="TableRow">
+                <div class="picture">
+                    <img src="../images/love.png"  width="75px">
+                </div>
+                <div class="cont">
+                    <div class="cont-1">
+                        <div class="TableRow">
+                            
+                            <p>
+                                今天的日期： <input type="date" name="date">
+                            </p>
+                      
+                            <p>
+                                <label for="feeling">您对本页面的感受：</label> <!--select要设置id 是for的值-->
+                          
+                                      <select name="feeling" id="feeling">
+                                        <option value="excellent">很棒</option>
+                                        <option value="good">还好</option>
+                                        <option value="gerenal">一般</option>
+                                        <option value="ugly">很丑</option>
+                                      </select>
+                            </p>
+                        </div>
+                    </div>
+                </div
+                <div class="TableRow">
+                    <div class="tableRow">
+                        <p class="heading"> 输入您的个人信息，交个朋友吧！</p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 姓名: </p>
+                        <p> <input type="text" name="name" value="" placeholder="XXX" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 地址: </p>
+                        <p> <input type="text" name="address" value="" placeholder="XXX" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 年龄: </p>
+                        <p> <input type="text" name="age" value="" placeholder="XX岁" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 性别: </p>
+                        <p> <input type="text" name="sex" value="" placeholder="男/女" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 星座: </p>
+                        <p> <input type="text" name="star" value="" placeholder="XX座" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 号码: </p>
+                        <p> <input type="tel" name="phone" value="" placeholder="310-555-1212" required> </p>
+                    </div>
+                    <div class="tableRow">
+                        <p> 建议: </p>
+                        <p>
+                            <textarea name="comments" ></textarea>
+                        </p>
+                    </div>
+                    <div class="tableRow">
+                        <p></p>
+                        <p class="sub"> <input type="submit" value="提交一下" > </p>
+                    </div>
+                </div>        
+                    </div>
+                </div>
+            </div>
+         </div>
+        </form>
+    <!-- 页脚区 -->
+    <footer>
+        <p>202021130014_汪蕊@All rights reserved</p>
+        <p>感谢观看！</p>
+    </footer>
+</body>
+</html>

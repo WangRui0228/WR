@@ -1,0 +1,158 @@
+ body{
+     background-color: #ffb3cc;
+     margin: 0; /*去掉默认边距*/
+     padding:0;
+     font-size: 16px;
+    text-align: center;
+    font-family: "Microsoft YaHei", Arial, Georgia, "Times New Roman", serif;
+ }
+ 
+
+ .inner{/*采用凝胶布局*/
+    width:1000px;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ div#header{ /*页眉区*/
+     height: 100px;
+     margin: 0px;
+     padding: 0;
+     
+ }
+ 
+#header .head_1{
+    display: inline-block;
+    height: 50px;
+    padding:0 auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#header .head_1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b3003b;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#nav{
+    height:55px;
+    background-color: #ff1a66;
+    width: 1171.67px;
+    padding:0px;
+    margin: 0px auto;
+    border-bottom: #ffb3cc 4px solid;
+}
+ 
+#nav nav div{
+    display: inline-block;
+    width: 200px ; /*1171.67/4=292.9*/
+    padding-top: 10px;
+}
+
+#nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 7px;
+
+    
+}
+a:hover{ /*鼠标悬停时改变颜色*/
+    background-color: #ffb3cc;
+    color: #ff0055; 
+}
+
+
+
+#container_1{
+    height:500px;
+    width: 100%;
+   
+}
+#container_1 .cont_1_1{
+    margin: 0 auto;
+}
+#container_1 .cont_1_1 .Photo1_1{
+    display: inline;
+    height: 500px;
+   
+   
+}
+
+#container_1 .cont_1_1 .Photo1_2{
+    display: inline;
+    height: 500px;
+    margin-left: 0;
+}
+/*表格布局*/
+.TableContainer{
+    display: table;
+    width: 1171.67px; /*与nav宽度保持一致*/
+    height: 200px;
+    /*边框间距，单元格之间的距离，有了这个属性就不需要单元格之间的margin*/
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #ff1a66 solid 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color:#ffe6ee;
+    border-top: #ffb3cc 4px solid;
+}
+.TableContainer .TableRow{
+    display: table-row;
+}
+.TableRow .cont-1{
+    display: table-cell;
+    border-right: #ff1a66 dotted 5px;
+}
+.TableContainer .TableRow .cont-1 .cont-1-2{
+    margin: 0;
+}
+.TableContainer .TableRow .cont-1 .cont-1-2{
+    font-size:25px;
+    font-weight: bolder;
+    margin-top: 0;
+    
+}
+.TableRow .cont-2{
+    display: table-cell;
+    width:500px;
+}
+.TableRow .cont-2 .cont-2-1{
+    width: 120px;
+    height: 35px;
+    background-color: #ff1a66;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 3px;
+}
+.TableRow .cont-2 .cont-2-2{
+    border: #ff1a66 dotted 5px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.TableRow .cont-2 .cont-2-2{
+   padding: 15px;
+}
+.TableRow .cont-2 .cont-2-3{
+    float: right;
+}
+.TableRow .cont-2 .cont-2-3 a{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+

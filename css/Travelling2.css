@@ -1,0 +1,65 @@
+/*偶数行样式*/
+.TableContainer-even{
+    display: table;
+    width: 790px;
+    height: 230px;
+    /*边框间距，单元格之间的距离，有了这个属性就不需要单元格之间的margin*/
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #ff1a66 solid 3px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+#TableContainer-even img{
+    border-radius:50%; 
+   
+}
+.TableRow-even{ /*可以看作表格的行*/
+    display:table-row;
+}
+
+.picture-even{
+    display: table-cell;
+    width: 380px;
+   
+}
+
+.introduction-even{
+    display: table-cell;
+    background-color: #ffe6ee;
+    width: 590px;
+    border: #ff1a66 3px dashed;
+}
+
+
+.introduction-even .landmark-even{
+    height: 40px;
+    line-height: 7px;
+    width:75px;
+    background-color: #ff1a66;
+    float: right;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+    position: relative;
+    left: -30px;
+    bottom: -20px;
+}
+
+.introduction-even .cont-even{
+    width: 300px;
+    height: 99px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+
+    position: relative;
+    left: 10px;
+    bottom: 37px;
+}
+    

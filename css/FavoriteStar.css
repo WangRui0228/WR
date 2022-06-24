@@ -1,0 +1,125 @@
+body{
+    background-color: #ffb3cc;
+    margin: 0; /*去掉默认边距*/
+    padding:0;
+    font-size: 16px;
+   text-align: center;
+   
+}
+
+
+
+.inner{/*采用凝胶布局*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header{ /*页眉区*/
+    height: 100px;
+    margin: 0px;
+    padding: 0;
+    background-color: #ffb3cc;
+}
+#header .head_1 {
+    display: inline-block;
+    height: 50px;
+    padding:0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#header .head_2 {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#header .head_1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b3003b;
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#nav{
+    height:55px;
+    background-color: #ff1a66;
+    width: 700px;
+    padding:0px;
+    margin: 0px auto;
+   margin-bottom: 0px;
+}
+ 
+#nav nav div{
+    display: inline-block;
+    width: 150px ; /*790/4=196*/
+    padding-top: 10px;
+}
+
+#nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 7px;
+
+    
+}
+a:hover{ /*鼠标悬停时改变颜色*/
+    background-color: #ffb3cc;
+    color: #ff0055; 
+}
+
+
+div.container-1{
+    width:700px;
+    height:250px;
+    background-color: #ffe6ee;
+   margin:0 auto;
+}
+div.container-1 .cont-1-1{
+    display:inline;
+    width:250px;
+    float: left;
+    margin: 35px;
+    margin-right: 0px;
+    
+}
+div.container-1 .cont-1-1 img{
+    border-radius: 15px;/*设计图像为圆角*/
+
+}
+
+div.container-1 .cont-1-2{
+    display:inline;
+    width: 280px;
+    float: right;
+    margin:35px;
+   margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+   line-height: 50px; /*改变行间距*/
+
+}
+
+
+.container-2{
+    width: 100%;
+   
+}
+
+.container-2 .table-1{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe6ee;
+    
+}
+
+
+table tr:nth-child(1){ /*改变表格第一行颜色*/
+        background-color:#ff1a66;
+    }
+.feeling,.intro{
+    line-height: 50px;
+}

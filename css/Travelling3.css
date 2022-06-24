@@ -1,0 +1,29 @@
+.TableContainer{
+    display: table;
+    width: 790px;
+    height: 200px;
+    /*边框间距，单元格之间的距离，有了这个属性就不需要单元格之间的margin*/
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #ff1a66 solid 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.TableContainer .TableRow{
+    display: table-row;
+}
+.TableRow .city{
+    display: table-cell;
+    width:150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.TableRow .city .name{
+    width: 50px;
+    height: 25px;
+    background-color:#ff1a66 ;
+    margin: auto;
+}
+
